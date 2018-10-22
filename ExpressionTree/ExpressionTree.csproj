@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <LangVersion>7.2</LangVersion>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.1.2" />
+    </ItemGroup>
+
+</Project>
